@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="examples login Suite" duration-ms="15536" started-at="2020-04-12T19:04:49Z" finished-at="2020-04-12T19:05:05Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@6500df86]" name="feature" class="runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="scenario outline login Test" duration-ms="15536" started-at="2020-04-12T19:04:49Z" finished-at="2020-04-12T19:05:05Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runner.TestRunner@6500df86]" name="setUp" is-config="true" duration-ms="164" started-at="2020-04-12T19:04:49Z" finished-at="2020-04-12T19:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@6500df86]" name="feature" duration-ms="15297" started-at="2020-04-12T19:04:49Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-12T19:05:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[guru99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runner.TestRunner@6500df86]" name="tearDown" is-config="true" duration-ms="8" started-at="2020-04-12T19:05:05Z" finished-at="2020-04-12T19:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- scenario outline login Test -->
+  </suite> <!-- examples login Suite -->
+</testng-results>
